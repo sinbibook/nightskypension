@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.1.0",
-    "generatedAt": "2025-12-05T06:53:53.401Z",
+    "version": "1.2.0",
+    "generatedAt": "2025-12-05T07:01:08.581Z",
     "templateType": "center_slider",
     "propertyId": "3f2d7bc7-3ff8-42fd-9337-5b0570646b78",
     "homepageId": "b4c4117f-11cb-463c-b2f4-efe977edff15"
@@ -2398,7 +2398,7 @@
                   {
                     "id": "ac460f50-4893-47c5-97b6-90a4a8a48440",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/b4c4117f-11cb-463c-b2f4-efe977edff15/reservation_hero/1764917614430-w7o19mqvgee.jpeg",
-                    "sortOrder": 1,
+                    "sortOrder": 0,
                     "description": "",
                     "isSelected": true
                   }
