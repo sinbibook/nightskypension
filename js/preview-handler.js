@@ -3,6 +3,103 @@
  * 어드민 페이지와 iframe 템플릿 간의 실시간 연동을 담당
  */
 
+// ThemeHelpers - 테마 관련 유틸리티
+const ThemeHelpers = {
+    /**
+     * CSS 변수를 동적으로 설정
+     */
+    setCSSVariable(variableName, value) {
+        if (!variableName || value === undefined || value === null) {
+            return;
+        }
+
+        document.documentElement.style.setProperty(variableName, value);
+    },
+
+    /**
+     * 테마 색상 적용
+     */
+    applyThemeColors(themeData) {
+        if (!themeData || !themeData.colors) {
+            return;
+        }
+
+        const { primary, secondary } = themeData.colors;
+
+        if (primary) {
+            this.setCSSVariable('--color-primary', primary);
+        }
+
+        if (secondary) {
+            this.setCSSVariable('--color-secondary', secondary);
+        }
+    },
+
+    /**
+     * 테마 폰트 적용
+     */
+    applyThemeFonts(themeData) {
+        if (!themeData || !themeData.fonts) {
+            return;
+        }
+
+        const { koMain, koSub, enMain } = themeData.fonts;
+
+        if (koMain) {
+            this.setCSSVariable('--font-ko-main', koMain);
+        }
+
+        if (koSub) {
+            this.setCSSVariable('--font-ko-sub', koSub);
+        }
+
+        if (enMain) {
+            this.setCSSVariable('--font-en-main', enMain);
+        }
+    },
+
+    /**
+     * 전체 테마 적용
+     */
+    applyTheme(themeData) {
+        if (!themeData) {
+            return;
+        }
+
+        this.applyThemeColors(themeData);
+        this.applyThemeFonts(themeData);
+    },
+
+    /**
+     * 테마 데이터 검증
+     */
+    validateThemeData(themeData) {
+        if (!themeData || typeof themeData !== 'object') {
+            return false;
+        }
+
+        const hasValidColors = themeData.colors &&
+            (themeData.colors.primary || themeData.colors.secondary);
+
+        const hasValidFonts = themeData.fonts &&
+            (themeData.fonts.koMain || themeData.fonts.koSub || themeData.fonts.enMain);
+
+        return hasValidColors || hasValidFonts;
+    },
+
+    /**
+     * 기본 테마로 리셋
+     */
+    resetToDefaultTheme() {
+        // theme.css에 정의된 기본값으로 리셋 (inline 스타일 제거)
+        document.documentElement.style.removeProperty('--color-primary');
+        document.documentElement.style.removeProperty('--color-secondary');
+        document.documentElement.style.removeProperty('--font-ko-main');
+        document.documentElement.style.removeProperty('--font-ko-sub');
+        document.documentElement.style.removeProperty('--font-en-main');
+    }
+};
+
 // 중복 선언 방지
 if (typeof window.PreviewHandler === 'undefined') {
 
@@ -118,6 +215,12 @@ class PreviewHandler {
                 break;
             case 'section_update':
                 this.handleSectionUpdate(event.data);
+                break;
+            case 'THEME_UPDATE':
+                this.handleThemeUpdate(data);
+                break;
+            case 'THEME_RESET':
+                this.handleThemeReset();
                 break;
             default:
                 break;
@@ -260,6 +363,47 @@ class PreviewHandler {
     }
 
     /**
+     * 테마 업데이트 처리
+     */
+    handleThemeUpdate(themeData) {
+        if (!ThemeHelpers.validateThemeData(themeData)) {
+            console.warn('Invalid theme data received:', themeData);
+            return;
+        }
+
+        // 테마 적용
+        ThemeHelpers.applyTheme(themeData);
+
+        // 현재 데이터에 테마 정보 저장
+        if (!this.currentData) {
+            this.currentData = {};
+        }
+        if (!this.currentData.template) {
+            this.currentData.template = {};
+        }
+        this.currentData.template.theme = themeData;
+
+        // 부모 창에 테마 업데이트 완료 신호
+        this.notifyRenderComplete('THEME_UPDATE_COMPLETE');
+    }
+
+    /**
+     * 테마 리셋 처리
+     */
+    handleThemeReset() {
+        // 기본 테마로 리셋
+        ThemeHelpers.resetToDefaultTheme();
+
+        // 현재 데이터에서 테마 정보 제거
+        if (this.currentData && this.currentData.template && this.currentData.template.theme) {
+            delete this.currentData.template.theme;
+        }
+
+        // 부모 창에 테마 리셋 완료 신호
+        this.notifyRenderComplete('THEME_RESET_COMPLETE');
+    }
+
+    /**
      * 네비게이션 시작 알림
      */
     notifyNavigationStart(page) {
@@ -350,6 +494,11 @@ class PreviewHandler {
 
         if (logoTextElement && data?.template?.logoText) {
             logoTextElement.textContent = data.template.logoText;
+        }
+
+        // 테마 적용 (데이터에 테마 정보가 있는 경우)
+        if (data?.template?.theme) {
+            ThemeHelpers.applyTheme(data.template.theme);
         }
     }
 
@@ -663,6 +812,20 @@ class PreviewHandler {
     }
 
     /**
+     * 현재 테마 데이터 반환
+     */
+    getCurrentTheme() {
+        return this.currentData?.template?.theme || null;
+    }
+
+    /**
+     * 테마 유틸리티 접근 메서드
+     */
+    getThemeHelpers() {
+        return ThemeHelpers;
+    }
+
+    /**
      * 어드민 데이터 수신 실패 시 기본 JSON 데이터 로드
      */
     async loadFallbackData() {
@@ -690,6 +853,9 @@ class PreviewHandler {
         }
     }
 }
+
+// ThemeHelpers를 전역에서 접근 가능하도록 설정
+window.ThemeHelpers = ThemeHelpers;
 
 // 전역 인스턴스 생성 (iframe 내부일 때만 - 어드민 미리보기)
 if (!window.previewHandler && window.parent !== window) {
