@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.23.0",
-    "generatedAt": "2026-01-27T05:57:40.883Z",
+    "version": "1.24.0",
+    "generatedAt": "2026-02-19T07:40:48.048Z",
     "templateType": "center_slider",
     "propertyId": "3f2d7bc7-3ff8-42fd-9337-5b0570646b78",
     "homepageId": "b4c4117f-11cb-463c-b2f4-efe977edff15"
@@ -44,9 +44,9 @@
       "businessNumber": "329-08-02114",
       "representativeName": "김민철",
       "businessAddress": "강원도 속초시 장성천길 149(장사동)",
-      "businessPhone": "",
-      "businessEmail": "",
-      "businessType": "",
+      "businessPhone": "010-8789-4936",
+      "businessEmail": "loginteam@hanmail.net",
+      "businessType": "individual",
       "businessCategory": "",
       "eCommerceRegistrationNumber": ""
     },
@@ -1064,7 +1064,29 @@
         }
       },
       "popup": {
-        "popups": []
+        "popups": [
+          {
+            "id": "1e73e897-2176-491f-9dc3-9024e2ab7ad9",
+            "link": "",
+            "title": "",
+            "images": [
+              {
+                "id": "42fd32b1-f705-4835-9b54-b1e0aed10a0c",
+                "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/b4c4117f-11cb-463c-b2f4-efe977edff15/popup/1771486843400-lng56yfmtz.png",
+                "sortOrder": 0,
+                "description": "",
+                "isSelected": true,
+                "blockId": "1e73e897-2176-491f-9dc3-9024e2ab7ad9"
+              }
+            ],
+            "slider": false,
+            "enabled": true,
+            "endDate": null,
+            "sortOrder": 0,
+            "startDate": null,
+            "description": ""
+          }
+        ]
       },
       "property": {
         "images": [
@@ -1599,6 +1621,7 @@
           ]
         }
       ]
-    }
+    },
+    "id": "b4c4117f-11cb-463c-b2f4-efe977edff15"
   }
 }
