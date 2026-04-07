@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.28.0",
-    "generatedAt": "2026-04-07T05:20:08.250Z",
+    "version": "1.29.0",
+    "generatedAt": "2026-04-07T05:53:52.567Z",
     "templateType": "fullpage_scroll",
     "propertyId": "3f2d7bc7-3ff8-42fd-9337-5b0570646b78",
     "homepageId": "b4c4117f-11cb-463c-b2f4-efe977edff15"
@@ -1144,8 +1144,8 @@
       {
         "logo": [
           {
-            "id": "0ce9fd10-756a-4b79-8d29-5b8b9ceb8b6d",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/b4c4117f-11cb-463c-b2f4-efe977edff15/logo/1764919757673-kfv1z3wk478.png",
+            "id": "1f134a17-dc07-487b-b9fb-ba89d51ded87",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/b4c4117f-11cb-463c-b2f4-efe977edff15/logo/1775540038603-tvub6lr9p1.png",
             "sortOrder": 0,
             "description": "",
             "isSelected": true
@@ -1165,7 +1165,7 @@
           "sections": [
             {
               "hero": {
-                "title": "별빛 아래에서 여유와 힐링을 누리는 밤하늘 쉼터",
+                "title": "밤하늘 펜션",
                 "images": [
                   {
                     "id": "af3d66e7-9a41-42f8-a21d-b2b4ec3ad122",
@@ -1174,53 +1174,102 @@
                     "description": "",
                     "isSelected": true
                   }
-                ]
+                ],
+                "description": "별빛 아래에서 여유와 힐링을 누리는 밤하늘 쉼터"
               },
               "closing": {
-                "title": "",
+                "title": " ",
                 "images": [
-                  {
-                    "id": "4ada6a6c-1532-45b5-975c-c5e4b0cce7fb",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/b4c4117f-11cb-463c-b2f4-efe977edff15/index_closing/1764841804636-h8i55ux7wc.jpg",
-                    "sortOrder": 0,
-                    "description": "",
-                    "isSelected": false
-                  },
                   {
                     "id": "1db4adca-dac6-4e03-af94-3cfd960d5c83",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/b4c4117f-11cb-463c-b2f4-efe977edff15/index_closing/1764923461396-yr0iyor9v1b.jpg",
-                    "sortOrder": 1,
+                    "sortOrder": 0,
                     "description": "",
                     "isSelected": true
                   }
-                ]
+                ],
+                "description": " "
               },
               "essence": {
-                "title": "",
+                "title": "프라이빗한 독채 객실",
                 "images": [
                   {
-                    "id": "d72e24ea-bbfa-4492-baf9-b4411cead45c",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/b4c4117f-11cb-463c-b2f4-efe977edff15/index_essence/1764836596080-dw4bfgyoue7.jpg",
+                    "id": "8e987e7e-f2db-4041-9b6a-b3f4e257c8b1",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/b4c4117f-11cb-463c-b2f4-efe977edff15/index_essence/1775541224041-6ru3t1nyntt.jpg",
                     "sortOrder": 0,
                     "description": "",
-                    "isSelected": false
-                  },
-                  {
-                    "id": "b7509079-2c96-4ca5-aa28-ea4327be5ef0",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/b4c4117f-11cb-463c-b2f4-efe977edff15/index_essence/1764923438921-tlr0aflyro.jpg",
-                    "sortOrder": 1,
-                    "description": "",
-                    "isSelected": false
+                    "isSelected": true
                   }
-                ]
+                ],
+                "description": "맑은 공기와 조용한 분위기의 밤하늘 펜션은\n프라이빗한 독채 구조로 다른 손님을 신경 쓰지 않고 \n우리 가족만의 시간을 보내실 수 있습니다.\n"
               },
               "gallery": {
-                "title": "",
-                "images": []
+                "title": " ",
+                "images": [
+                  {
+                    "id": "61a06932-4f70-4d22-94cb-bfe74ecc17fc",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/b4c4117f-11cb-463c-b2f4-efe977edff15/index_gallery/1775540352014-ih8iqhlsnj.jpg",
+                    "sortOrder": 0,
+                    "description": " ",
+                    "isSelected": true
+                  },
+                  {
+                    "id": "2d909492-d153-4913-b6a1-51011000cf6b",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/b4c4117f-11cb-463c-b2f4-efe977edff15/index_gallery/1775540352014-jf9q7b5wjwl.jpg",
+                    "sortOrder": 1,
+                    "description": " ",
+                    "isSelected": true
+                  },
+                  {
+                    "id": "a54a2bb1-2679-419f-b97f-487f0e673569",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/b4c4117f-11cb-463c-b2f4-efe977edff15/index_gallery/1775540352014-mcukzmzcv9n.jpg",
+                    "sortOrder": 2,
+                    "description": " ",
+                    "isSelected": true
+                  },
+                  {
+                    "id": "85488169-388c-4772-9860-fced861d65f9",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/b4c4117f-11cb-463c-b2f4-efe977edff15/index_gallery/1775540352014-ngmu3krlavq.jpg",
+                    "sortOrder": 3,
+                    "description": " ",
+                    "isSelected": true
+                  },
+                  {
+                    "id": "2a4d4356-369d-4816-af10-784db6a1b16b",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/b4c4117f-11cb-463c-b2f4-efe977edff15/index_gallery/1775540352014-eb7663wtm6q.jpeg",
+                    "sortOrder": 4,
+                    "description": " ",
+                    "isSelected": true
+                  }
+                ],
+                "description": " "
               },
               "signature": {
-                "title": "",
-                "images": []
+                "title": "쾌적한 펜션객실",
+                "images": [
+                  {
+                    "id": "e7e84066-1680-4740-bd13-804190b283cb",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/b4c4117f-11cb-463c-b2f4-efe977edff15/index_signature/1775540680629-ni0hau1n6x.jpg",
+                    "sortOrder": 0,
+                    "description": "",
+                    "isSelected": true
+                  },
+                  {
+                    "id": "95e300b7-cffd-411f-8733-d2605a8a885b",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/b4c4117f-11cb-463c-b2f4-efe977edff15/index_signature/1775540680630-10n2guccfc8q.jpg",
+                    "sortOrder": 1,
+                    "description": "",
+                    "isSelected": true
+                  },
+                  {
+                    "id": "556b3391-13b3-4993-bdb8-dd89e686af50",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/b4c4117f-11cb-463c-b2f4-efe977edff15/index_signature/1775540680630-jr1es3wirc8.jpg",
+                    "sortOrder": 2,
+                    "description": "",
+                    "isSelected": true
+                  }
+                ],
+                "description": "쾌적하게 정돈된 객실에서\n편리한 구성과 아늑한 분위기를 누리며\n홍천 밤하늘 펜션만의 편안한 휴식을 경험해보세요."
               }
             }
           ]
@@ -2251,6 +2300,7 @@
           ]
         }
       ]
-    }
+    },
+    "id": "b4c4117f-11cb-463c-b2f4-efe977edff15"
   }
 }
