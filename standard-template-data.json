@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "version": "1.27.0",
-    "generatedAt": "2026-04-06T03:22:01.206Z",
-    "templateType": "center_slider",
+    "version": "1.28.0",
+    "generatedAt": "2026-04-07T05:20:08.250Z",
+    "templateType": "fullpage_scroll",
     "propertyId": "3f2d7bc7-3ff8-42fd-9337-5b0570646b78",
     "homepageId": "b4c4117f-11cb-463c-b2f4-efe977edff15"
   },
@@ -1139,7 +1139,7 @@
   ],
   "homepage": {
     "domain": "nightskypension.kr",
-    "templateType": "center_slider",
+    "templateType": "fullpage_scroll",
     "images": [
       {
         "logo": [
@@ -1340,6 +1340,32 @@
               }
             }
           ]
+        }
+      },
+      "theme": {
+        "font": {
+          "koSub": {
+            "cdn": "https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.min.css",
+            "key": "pretendard",
+            "woff2": null,
+            "family": "Pretendard"
+          },
+          "enMain": {
+            "cdn": "https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap",
+            "key": "cormorant",
+            "woff2": null,
+            "family": "Cormorant"
+          },
+          "koMain": {
+            "cdn": null,
+            "key": "imhyemin",
+            "woff2": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Regular.woff2",
+            "family": "ImHyeMin"
+          }
+        },
+        "color": {
+          "primary": "#F5F5F5",
+          "secondary": "#1D3A5F"
         }
       },
       "popup": {
@@ -2225,7 +2251,6 @@
           ]
         }
       ]
-    },
-    "id": "b4c4117f-11cb-463c-b2f4-efe977edff15"
+    }
   }
 }
