@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.36.0",
-    "generatedAt": "2026-04-07T06:39:38.688Z",
+    "version": "1.37.0",
+    "generatedAt": "2026-04-20T01:36:30.224Z",
     "templateType": "fullpage_scroll",
     "propertyId": "3f2d7bc7-3ff8-42fd-9337-5b0570646b78",
     "homepageId": "b4c4117f-11cb-463c-b2f4-efe977edff15"
@@ -197,23 +197,23 @@
         "displayOrder": 2,
         "images": [
           {
-            "id": "154396dd-f34f-471a-9459-bf2f34ba6d25",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/b1266eb1-6600-4c7d-bf02-023c18d326ee/main/1764723599800-umzk20ukack.jpeg",
+            "id": "e9689f65-7130-4fb0-a6d3-05904afe88bc",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/b1266eb1-6600-4c7d-bf02-023c18d326ee/main/1775544173260-5czk5j16amj.jpg",
             "sortOrder": 1,
-            "description": " ",
+            "description": "",
             "isSelected": true
           },
           {
             "id": "443502b9-272e-4a6f-8039-9fe565faa871",
             "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/b1266eb1-6600-4c7d-bf02-023c18d326ee/main/1764723599800-xqkk16d4woh.jpg",
-            "sortOrder": 2,
+            "sortOrder": 3,
             "description": " ",
             "isSelected": true
           },
           {
-            "id": "65deafc6-187a-47b0-8b9a-960524dfa296",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/b1266eb1-6600-4c7d-bf02-023c18d326ee/main/1764723599800-fstox7d8m.jpg",
-            "sortOrder": 3,
+            "id": "154396dd-f34f-471a-9459-bf2f34ba6d25",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/b1266eb1-6600-4c7d-bf02-023c18d326ee/main/1764723599800-umzk20ukack.jpeg",
+            "sortOrder": 2,
             "description": " ",
             "isSelected": true
           },
@@ -221,6 +221,13 @@
             "id": "6a77576c-b356-43c0-bbda-ed8df21e9685",
             "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/b1266eb1-6600-4c7d-bf02-023c18d326ee/main/1764723599800-h76j2dva5fi.jpg",
             "sortOrder": 0,
+            "description": " ",
+            "isSelected": true
+          },
+          {
+            "id": "65deafc6-187a-47b0-8b9a-960524dfa296",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/b1266eb1-6600-4c7d-bf02-023c18d326ee/main/1764723599800-fstox7d8m.jpg",
+            "sortOrder": 4,
             "description": " ",
             "isSelected": true
           }
@@ -287,6 +294,22 @@
             "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/c753f12c-dcb9-4f3e-adb8-f6fd186e573f/main/1764723602383-sm8u4di5zqm.jpg",
             "sortOrder": 7,
             "description": " ",
+            "isSelected": true
+          }
+        ]
+      },
+      {
+        "id": "0e21ff9f-be7f-4bab-82b8-4670f9d312f8",
+        "name": "바베큐 세트",
+        "description": "장바구니는 집에 두고 오세요!\n바베큐 파티에 필요한 모든 것, 밤하늘 펜션에서 다 준비해 드립니다. ",
+        "usageGuide": "[바베큐 세트 판매]\n- 펜션에서 바베큐 세트(2~3인용)를 판매합니다. \n- 금액 : 59,000원\n- 구성 : 한돈 (600g, 삼겹/오겹/목살 중 택1, 삼각/토시살 중 택1), 소시지(320g), 쌈장(2봉), 소금(2봉), 마늘(1봉), 햇반or라면 중 택2, 썰은김치, 쌈채소(상추/깻잎/고추) \n※ 숯/그릴비 별도, 추가 구매 가능",
+        "displayOrder": 4,
+        "images": [
+          {
+            "id": "23308663-9c8d-4c95-b6e4-99424d05f369",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/0e21ff9f-be7f-4bab-82b8-4670f9d312f8/main/1776224020812-p47kcxragd.jpg",
+            "sortOrder": 0,
+            "description": "",
             "isSelected": true
           }
         ]
@@ -392,18 +415,35 @@
   "rooms": [
     {
       "id": "68739ea7-0603-4931-9719-1fefb9c9e290",
+      "propertyId": "3f2d7bc7-3ff8-42fd-9337-5b0570646b78",
+      "propertyName": "속초 밤하늘펜션",
       "name": "그레이1 (개별바베큐, 불멍)",
+      "nameEn": "GRAY 1 (Random)",
       "description": "복층형 : \n- 1층 : 거실+주방+화장실1+테라스\n- 2층 : 침대룸(퀸1)\n\n※ 모든 객실은 타입별 현장 랜덤배정입니다. ",
       "roomInfo": "[인원추가(연박 시에도 1회만 결제)]\n- 1인 20,000원 (36개월 이상 / 침구류 제공) / 36개월 미만 1인 한정 무료입실 (침구 미제공)\n- 영유아 인원수 포함 / 최대인원 초과불가\n\n[기타 편의시설]\n주방도구(냄비, 후라이팬, 식기류, 집게, 가위, 국자 등), 비누, 치약, 전기밥솥(관리실 무료 대여 가능)",
       "usageGuide": "",
       "group": "그레이 (개별바베큐, 불멍, 랜덤)",
       "size": 49,
+      "sizePyeong": 14.8,
       "baseOccupancy": 4,
       "maxOccupancy": 6,
       "totalRoomCount": {
         "bedroom": 1,
         "bathroom": 1,
-        "livingRoom": 0
+        "livingRoom": 1,
+        "ondol": 0,
+        "kitchen": 0
+      },
+      "roomOptions": {
+        "petState": "N",
+        "barbecueState": "N",
+        "poolState": "N"
+      },
+      "timeSettings": {
+        "timeSettingType": "property",
+        "checkin": "15:00",
+        "checkout": "11:00",
+        "checkinDeadline": "22:00"
       },
       "bedTypes": [
         "퀸 베드"
@@ -427,6 +467,7 @@
         "복층"
       ],
       "status": "active",
+      "bankAccountId": "97e7178f-3c82-413a-a344-9c2b95bc4837",
       "images": [
         {
           "thumbnail": [
@@ -619,22 +660,43 @@
           ]
         }
       ],
-      "displayOrder": 0
+      "displayOrder": 0,
+      "createdAt": "2025-12-03T01:34:53.599Z",
+      "updatedAt": "2026-04-03T08:51:49.078Z",
+      "createdBy": "3a2aa390-fb70-475b-895f-b6e3ea8ef4a2",
+      "updatedBy": "3a2aa390-fb70-475b-895f-b6e3ea8ef4a2"
     },
     {
       "id": "2addae08-3b50-492c-9df5-4ae9caa1c541",
+      "propertyId": "3f2d7bc7-3ff8-42fd-9337-5b0570646b78",
+      "propertyName": "속초 밤하늘펜션",
       "name": "그레이2 (개별바베큐, 불멍)",
+      "nameEn": "GRAY 1 (Random)",
       "description": "복층형 : \n- 1층 : 거실+주방+화장실1+테라스\n- 2층 : 침대룸(퀸1)\n\n※ 모든 객실은 타입별 현장 랜덤배정입니다. ",
       "roomInfo": "[인원추가(연박 시에도 1회만 결제)]\n- 1인 20,000원 (36개월 이상 / 침구류 제공) / 36개월 미만 1인 한정 무료입실 (침구 미제공)\n- 영유아 인원수 포함 / 최대인원 초과불가\n\n[기타 편의시설]\n주방도구(냄비, 후라이팬, 식기류, 집게, 가위, 국자 등), 비누, 치약, 전기밥솥(관리실 무료 대여 가능)",
       "usageGuide": "",
       "group": "그레이 (개별바베큐, 불멍, 랜덤)",
       "size": 49,
+      "sizePyeong": 14.8,
       "baseOccupancy": 4,
       "maxOccupancy": 6,
       "totalRoomCount": {
         "bedroom": 1,
         "bathroom": 1,
-        "livingRoom": 0
+        "livingRoom": 1,
+        "ondol": 0,
+        "kitchen": 0
+      },
+      "roomOptions": {
+        "petState": "N",
+        "barbecueState": "N",
+        "poolState": "N"
+      },
+      "timeSettings": {
+        "timeSettingType": "property",
+        "checkin": "15:00",
+        "checkout": "11:00",
+        "checkinDeadline": "22:00"
       },
       "bedTypes": [
         "퀸 베드"
@@ -658,6 +720,7 @@
         "복층"
       ],
       "status": "active",
+      "bankAccountId": "97e7178f-3c82-413a-a344-9c2b95bc4837",
       "images": [
         {
           "thumbnail": [
@@ -857,22 +920,43 @@
           ]
         }
       ],
-      "displayOrder": 1
+      "displayOrder": 1,
+      "createdAt": "2025-12-03T01:34:53.641Z",
+      "updatedAt": "2026-04-03T08:52:07.975Z",
+      "createdBy": "3a2aa390-fb70-475b-895f-b6e3ea8ef4a2",
+      "updatedBy": "3a2aa390-fb70-475b-895f-b6e3ea8ef4a2"
     },
     {
       "id": "f0ec12aa-19c9-427d-bfc1-01dc2ef57d0f",
+      "propertyId": "3f2d7bc7-3ff8-42fd-9337-5b0570646b78",
+      "propertyName": "속초 밤하늘펜션",
       "name": "그레이3 (개별바베큐, 불멍)",
+      "nameEn": "GRAY 3 (Random)",
       "description": "복층형 : \n- 1층 : 거실+주방+화장실1+테라스\n- 2층 : 침대룸(퀸1)\n\n※ 모든 객실은 타입별 현장 랜덤배정입니다. ",
       "roomInfo": "[인원추가(연박 시에도 1회만 결제)]\n- 1인 20,000원 (36개월 이상 / 침구류 제공) / 36개월 미만 1인 한정 무료입실 (침구 미제공)\n- 영유아 인원수 포함 / 최대인원 초과불가\n\n[기타 편의시설]\n주방도구(냄비, 후라이팬, 식기류, 집게, 가위, 국자 등), 비누, 치약, 전기밥솥(관리실 무료 대여 가능)",
       "usageGuide": "",
       "group": "그레이 (개별바베큐, 불멍, 랜덤)",
       "size": 49,
+      "sizePyeong": 14.8,
       "baseOccupancy": 4,
       "maxOccupancy": 6,
       "totalRoomCount": {
         "bedroom": 1,
         "bathroom": 1,
-        "livingRoom": 0
+        "livingRoom": 1,
+        "ondol": 0,
+        "kitchen": 0
+      },
+      "roomOptions": {
+        "petState": "N",
+        "barbecueState": "N",
+        "poolState": "N"
+      },
+      "timeSettings": {
+        "timeSettingType": "property",
+        "checkin": "15:00",
+        "checkout": "11:00",
+        "checkinDeadline": "22:00"
       },
       "bedTypes": [
         "퀸 베드"
@@ -896,6 +980,7 @@
         "복층"
       ],
       "status": "active",
+      "bankAccountId": "97e7178f-3c82-413a-a344-9c2b95bc4837",
       "images": [
         {
           "thumbnail": [
@@ -1088,22 +1173,43 @@
           ]
         }
       ],
-      "displayOrder": 2
+      "displayOrder": 2,
+      "createdAt": "2025-12-03T01:34:53.655Z",
+      "updatedAt": "2026-04-03T08:52:52.452Z",
+      "createdBy": "3a2aa390-fb70-475b-895f-b6e3ea8ef4a2",
+      "updatedBy": "3a2aa390-fb70-475b-895f-b6e3ea8ef4a2"
     },
     {
       "id": "f0119510-d31b-4eef-a25b-aafe98328787",
+      "propertyId": "3f2d7bc7-3ff8-42fd-9337-5b0570646b78",
+      "propertyName": "속초 밤하늘펜션",
       "name": "블루1 (개별바베큐, 불멍, 랜덤)",
+      "nameEn": "BLUE 1 (Random)",
       "description": "복층형 : \n- 1층 : 거실+주방+화장실1+테라스\n- 2층 : 침대룸(퀸1)\n\n※ 모든 객실은 타입별 현장 랜덤배정입니다. ",
       "roomInfo": "[인원추가(연박 시에도 1회만 결제)]\n- 1인 20,000원 (36개월 이상 / 침구류 제공) / 36개월 미만 무료입실 (침구 미제공)\n- 영유아 인원수 포함 / 최대인원 초과불가\n\n[기타 편의시설]\n주방도구(냄비, 후라이팬, 식기류, 집게, 가위, 국자 등), 비누, 치약, 전기밥솥(관리실 무료 대여 가능)",
       "usageGuide": "",
       "group": "블루 (개별바베큐, 불멍, 랜덤)",
       "size": 49.59,
+      "sizePyeong": 15,
       "baseOccupancy": 4,
       "maxOccupancy": 6,
       "totalRoomCount": {
         "bedroom": 1,
         "bathroom": 1,
-        "livingRoom": 0
+        "livingRoom": 4,
+        "ondol": 0,
+        "kitchen": 0
+      },
+      "roomOptions": {
+        "petState": "N",
+        "barbecueState": "N",
+        "poolState": "N"
+      },
+      "timeSettings": {
+        "timeSettingType": "property",
+        "checkin": "15:00",
+        "checkout": "11:00",
+        "checkinDeadline": "22:00"
       },
       "bedTypes": [
         "퀸 베드"
@@ -1127,6 +1233,7 @@
         "복층"
       ],
       "status": "active",
+      "bankAccountId": "97e7178f-3c82-413a-a344-9c2b95bc4837",
       "images": [
         {
           "thumbnail": [],
@@ -1134,7 +1241,79 @@
           "exterior": []
         }
       ],
-      "displayOrder": 3
+      "displayOrder": 3,
+      "createdAt": "2026-04-03T08:48:08.839Z",
+      "updatedAt": "2026-04-03T08:52:24.379Z",
+      "createdBy": "3a2aa390-fb70-475b-895f-b6e3ea8ef4a2",
+      "updatedBy": "3a2aa390-fb70-475b-895f-b6e3ea8ef4a2"
+    },
+    {
+      "id": "e14e99b1-5993-4182-8ffb-0df03c7395e9",
+      "propertyId": "3f2d7bc7-3ff8-42fd-9337-5b0570646b78",
+      "propertyName": "속초 밤하늘펜션",
+      "name": "블루2 (개별바베큐, 불멍, 랜덤)",
+      "nameEn": "BLUE 2 (Random)",
+      "description": "복층형 : \n- 1층 : 거실+주방+화장실1+테라스\n- 2층 : 침대룸(퀸1)\n\n※ 모든 객실은 타입별 현장 랜덤배정입니다. ",
+      "roomInfo": "[인원추가(연박 시에도 1회만 결제)]\n- 1인 20,000원 (36개월 이상 / 침구류 제공) / 36개월 미만 무료입실 (침구 미제공)\n- 영유아 인원수 포함 / 최대인원 초과불가\n\n[기타 편의시설]\n주방도구(냄비, 후라이팬, 식기류, 집게, 가위, 국자 등), 비누, 치약, 전기밥솥(관리실 무료 대여 가능)",
+      "usageGuide": "",
+      "group": "블루 (개별바베큐, 불멍, 랜덤)",
+      "size": 49.59,
+      "sizePyeong": 15,
+      "baseOccupancy": 4,
+      "maxOccupancy": 6,
+      "totalRoomCount": {
+        "bedroom": 1,
+        "bathroom": 1,
+        "livingRoom": 1,
+        "ondol": 0,
+        "kitchen": 0
+      },
+      "roomOptions": {
+        "petState": "N",
+        "barbecueState": "N",
+        "poolState": "N"
+      },
+      "timeSettings": {
+        "timeSettingType": "property",
+        "checkin": "15:00",
+        "checkout": "11:00",
+        "checkinDeadline": "22:00"
+      },
+      "bedTypes": [
+        "퀸 베드"
+      ],
+      "amenities": [
+        "침대",
+        "무료 WiFi",
+        "에어컨",
+        "냉장고",
+        "전자레인지",
+        "헤어드라이어",
+        "화장실",
+        "수건",
+        "샴푸",
+        "바디워시"
+      ],
+      "roomViews": [
+        "숲전망"
+      ],
+      "roomStructures": [
+        "복층"
+      ],
+      "status": "active",
+      "bankAccountId": "97e7178f-3c82-413a-a344-9c2b95bc4837",
+      "images": [
+        {
+          "thumbnail": [],
+          "interior": [],
+          "exterior": []
+        }
+      ],
+      "displayOrder": 4,
+      "createdAt": "2026-04-03T08:48:08.922Z",
+      "updatedAt": "2026-04-14T03:50:39.626Z",
+      "createdBy": "3a2aa390-fb70-475b-895f-b6e3ea8ef4a2",
+      "updatedBy": "3a2aa390-fb70-475b-895f-b6e3ea8ef4a2"
     }
   ],
   "homepage": {
@@ -1175,7 +1354,9 @@
                     "isSelected": true
                   }
                 ],
-                "description": "별빛 아래에서 여유와 힐링을 누리는 밤하늘 쉼터"
+                "description": "별빛 아래에서 여유와 힐링을 누리는 밤하늘 쉼터",
+                "mediaType": "image",
+                "videos": []
               },
               "closing": {
                 "title": " ",
@@ -1188,7 +1369,9 @@
                     "isSelected": true
                   }
                 ],
-                "description": " "
+                "description": " ",
+                "mediaType": "image",
+                "videos": []
               },
               "essence": {
                 "title": "프라이빗한 독채 객실",
@@ -1201,7 +1384,9 @@
                     "isSelected": true
                   }
                 ],
-                "description": "맑은 공기와 조용한 분위기의 밤하늘 펜션은\n프라이빗한 독채 구조로 다른 손님을 신경 쓰지 않고 \n우리 가족만의 시간을 보내실 수 있습니다.\n"
+                "description": "맑은 공기와 조용한 분위기의 밤하늘 펜션은\n프라이빗한 독채 구조로 다른 손님을 신경 쓰지 않고 \n우리 가족만의 시간을 보내실 수 있습니다.\n",
+                "mediaType": "image",
+                "videos": []
               },
               "gallery": {
                 "title": " ",
@@ -1242,7 +1427,9 @@
                     "isSelected": true
                   }
                 ],
-                "description": " "
+                "description": " ",
+                "mediaType": "image",
+                "videos": []
               },
               "signature": {
                 "title": "쾌적한 펜션객실",
@@ -1269,7 +1456,9 @@
                     "isSelected": true
                   }
                 ],
-                "description": "쾌적하게 정돈된 객실에서\n편리한 구성과 아늑한 분위기를 누리며\n홍천 밤하늘 펜션만의 편안한 휴식을 경험해보세요."
+                "description": "쾌적하게 정돈된 객실에서\n편리한 구성과 아늑한 분위기를 누리며\n홍천 밤하늘 펜션만의 편안한 휴식을 경험해보세요.",
+                "mediaType": "image",
+                "videos": []
               }
             }
           ]
@@ -1427,9 +1616,9 @@
                   "images": []
                 },
                 "experience": {
+                  "benefits": [],
                   "features": [],
-                  "additionalInfos": [],
-                  "benefits": []
+                  "additionalInfos": []
                 }
               }
             ]
@@ -1447,9 +1636,9 @@
                   "images": []
                 },
                 "experience": {
+                  "benefits": [],
                   "features": [],
-                  "additionalInfos": [],
-                  "benefits": []
+                  "additionalInfos": []
                 }
               }
             ]
@@ -1467,9 +1656,9 @@
                   "images": []
                 },
                 "experience": {
+                  "benefits": [],
                   "features": [],
-                  "additionalInfos": [],
-                  "benefits": []
+                  "additionalInfos": []
                 }
               }
             ]
@@ -1487,9 +1676,9 @@
                   "images": []
                 },
                 "experience": {
+                  "benefits": [],
                   "features": [],
-                  "additionalInfos": [],
-                  "benefits": []
+                  "additionalInfos": []
                 }
               }
             ]
@@ -1619,7 +1808,9 @@
             "isSelected": true,
             "category": "property_exterior"
           }
-        ]
+        ],
+        "name": "속초 밤하늘펜션",
+        "nameEn": "Sokcho Night Sky Pension"
       },
       "roomtypes": [
         {
@@ -2433,6 +2624,10 @@
               "category": "roomtype_exterior"
             }
           ]
+        },
+        {
+          "id": "e14e99b1-5993-4182-8ffb-0df03c7395e9",
+          "images": []
         }
       ]
     },
